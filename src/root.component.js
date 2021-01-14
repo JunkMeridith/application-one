@@ -10,8 +10,8 @@ export default function Root() {
     <div>
     <h1>Hello to the Yippie Ki Yay page!</h1>
     <BrowserRouter>
-      <Route path="/yippie" component={yippiePage} />
-      <Route path="/ki" component={kiPage} />
+      <Route path="/2/yippie" component={yippiePage} />
+      <Route path="/2/ki" component={kiPage} />
     </BrowserRouter>
       </div>
   );
